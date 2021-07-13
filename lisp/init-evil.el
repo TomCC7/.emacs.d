@@ -1,7 +1,19 @@
-;; evil config
-(use-package evil)
-;; enable evil
+;; {{ evil
+(use-package evil
+  :ensure t
+  :init
+  (setq evil-want-C-u-scroll t) ;; use C-u as scrollup
+  )
 (evil-mode 1)
+;; }}
+
+;; {{ evil-collection
+;; (use-package evil-collection
+;;   :after evil
+;;   :ensure t
+;;   :config
+;;   (evil-collection-init))
+;; }}
 
 ;; {{ replace undo-tree with undo-fu
 ;; @see https://github.com/emacs-evil/evil/issues/1074
