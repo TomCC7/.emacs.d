@@ -6,9 +6,6 @@
 ;; menu bar
 (menu-bar-mode -1) 
 
-;; line number
-(global-linum-mode -1)
-
 ;; close help
 (setq inhibit-splash-screen 1)
 
@@ -18,5 +15,9 @@
 
 ;; disable auto backup
 (setq make-backup-files nil)
+
+;; fill-column
+(setq fill-column 65)
+
 
 (provide 'init-misc)

@@ -25,6 +25,7 @@
 (toggle-debug-on-error t)
 (require 'init-packages) ;; straight
 (require 'init-misc)
+(require 'init-utils)
 (require 'init-evil)
 (require 'init-company)
 (require 'init-ivy)

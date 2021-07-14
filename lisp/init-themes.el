@@ -4,7 +4,7 @@
 (use-package doom-themes)
 (use-package arc-dark-theme)
 ;; select theme
-(load-theme 'doom-one t nil)
+(load-theme 'monokai t nil)
 
 (defun my-tab-tab-bar-toggle ()
   "Toggle `tab-bar' presentation."

@@ -1,0 +1,10 @@
+#+TITLE: .emacs.d
+
+* TODO todos
+** TODO PDF
+  - [ ] add pdf vim keybindings
+** TODO org-mode
+  - [ ] org-roam
+** TODO programming
+  - [ ] lisp
+
