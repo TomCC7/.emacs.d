@@ -1,4 +1,8 @@
 straight/
 auto-save-list/
+elpy/
 amx-items
 smex-items
+*~
+tramp
+recentf

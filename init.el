@@ -1,4 +1,5 @@
 ;; start up time
+(add-hook 'prog-mode-hook #'linum-mode)
 (add-hook 'emacs-startup-hook
           (lambda ()
             (message "Emacs ready in %s with %d gcs"
@@ -18,17 +19,19 @@
 (defconst my-lisp-dir (concat my-emacs-d "lisp")
   "Directory of lisp.")
 (add-to-list 'load-path my-lisp-dir)
-;; proxy
-(require 'init-proxy)
+;; env
+(require 'init-env)
 ;; packages
 (toggle-debug-on-error t)
 (require 'init-packages) ;; straight
-(require 'init-company)
-(require 'init-input) ;; input enhancement
+(require 'init-misc)
 (require 'init-evil)
+(require 'init-company)
+(require 'init-ivy)
+(require 'init-enhancements) ;; enhancement to default
+(require 'init-prog) ;; programming
+(require 'init-org)
 (require 'init-themes) ;; themes
-;; config
-(require 'init-config)
 ;;		;; --- Better Editor ---
 ;;		hungry-delete
 ;;		swiper

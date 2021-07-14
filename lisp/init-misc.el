@@ -3,11 +3,11 @@
 ;; clsoe scroll bar
 (scroll-bar-mode -1)
 
-;; line number
-(global-linum-mode 1)
+;; menu bar
+(menu-bar-mode -1) 
 
-;; 更改光标的样式（不能生效，解决方案见第二集）
-(setq cursor-type 'bar)
+;; line number
+(global-linum-mode -1)
 
 ;; close help
 (setq inhibit-splash-screen 1)
@@ -19,4 +19,4 @@
 ;; disable auto backup
 (setq make-backup-files nil)
 
-(provide 'init-config)
+(provide 'init-misc)

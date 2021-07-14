@@ -1,0 +1,60 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("config"
+ (filename . "~/.emacs.d/")
+ (front-context-string . "auto-save-list/\n")
+ (rear-context-string . " 4k 07-14 20:40 ")
+ (position . 81))
+("learning"
+ (filename . "/mnt/share/Programming/learning/")
+ (front-context-string . "ComputerNetworki")
+ (rear-context-string . " 4k 02-03 14:42 ")
+ (position . 81))
+("baidusb"
+ (filename . "/mnt/share/JDsync/2021SU/baidusb/")
+ (front-context-string . "  /mnt/share/JDs")
+ (rear-context-string)
+ (position . 1))
+("notes"
+ (filename . "/mnt/share/Programming/notes/source/_posts/")
+ (front-context-string . "  /mnt/share/Pro")
+ (rear-context-string)
+ (position . 1))
+("VE203"
+ (filename . "/mnt/share/JDsync/2021SU/VE203/")
+ (front-context-string . "  /mnt/share/JDs")
+ (rear-context-string)
+ (position . 1))
+("Citation.bib"
+ (filename . "/mnt/share/JDsync/Documents/bib/citation.bib")
+ (front-context-string . "\n@article{10.230")
+ (rear-context-string)
+ (position . 1))
+("VE311"
+ (filename . "/mnt/share/JDsync/2021SU/VE311/")
+ (front-context-string . "  /mnt/share/JDs")
+ (rear-context-string)
+ (position . 1))
+("VE300"
+ (filename . "/mnt/share/JDsync/2021SU/VE300/")
+ (front-context-string . "  /mnt/share/JDs")
+ (rear-context-string)
+ (position . 1))
+("VE270"
+ (filename . "/mnt/share/JDsync/2021SU/VE270/")
+ (front-context-string . "  /mnt/share/JDs")
+ (rear-context-string)
+ (position . 1))
+("VR235"
+ (filename . "/mnt/share/JDsync/2021SU/VR235/")
+ (front-context-string . "/mnt/share/JDsyn")
+ (rear-context-string)
+ (position . 3))
+("21SU"
+ (filename . "/mnt/share/JDsync/2021SU/")
+ (front-context-string . "  /mnt/share/JDs")
+ (rear-context-string)
+ (position . 1))
+)
