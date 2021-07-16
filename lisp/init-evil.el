@@ -86,4 +86,10 @@
   )
 ;; }}
 
+;; {{ powerline-evil
+(use-package powerline-evil
+  :config
+  (powerline-evil-vim-color-theme))
+;; }}
+
 (provide 'init-evil)
