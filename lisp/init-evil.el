@@ -1,18 +1,20 @@
+(require 'init-packages)
 ;; {{ evil
 (use-package evil
   :ensure t
   :init
+  (setq evil-want-keybinding nil)
   (setq evil-want-C-u-scroll t) ;; use C-u as scrollup
   )
 (evil-mode 1)
 ;; }}
 
 ;; {{ evil-collection
-;; (use-package evil-collection
-;;   :after evil
-;;   :ensure t
-;;   :config
-;;   (evil-collection-init))
+(use-package evil-collection
+  :after evil
+  :ensure t
+  :config
+  (evil-collection-init))
 ;; }}
 
 ;; {{ replace undo-tree with undo-fu
@@ -75,11 +77,13 @@
 ;; }}
 
 ;; {{ evil-nerd-commenter
-(use-package evil-nerd-commenter)
-(evilnc-default-hotkeys) ;; default keybinding
-(define-key evil-motion-state-map "gc" 'evilnc-comment-operator) ; same as doom-emacs
-(define-key evil-motion-state-map "gb" 'evilnc-copy-and-comment-operator)
-(define-key evil-motion-state-map "gy" 'evilnc-yank-and-comment-operator)
+(use-package evil-nerd-commenter
+  :config
+  (evilnc-default-hotkeys) ;; default keybinding
+  (define-key evil-motion-state-map "gc" 'evilnc-comment-operator) ; same as doom-emacs
+  (define-key evil-motion-state-map "gb" 'evilnc-copy-and-comment-operator)
+  (define-key evil-motion-state-map "gy" 'evilnc-yank-and-comment-operator)
+  )
 ;; }}
 
 (provide 'init-evil)

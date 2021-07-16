@@ -1,4 +1,16 @@
 (require 'init-packages)
+;; {{ misc
+(add-hook 'org-mode-hook
+	  (lambda ()
+	    ;; auto fill mode
+	    (turn-on-auto-fill)
+	    ;; image preview
+	    (setq org-image-actual-width (list 600))
+	    ;; latex syntax highlighting
+	    (setq org-highlight-latex-and-related '(native))
+))
+;; }}
+
 ;; {{ org-bullets
 (use-package org-bullets
   :config
@@ -6,7 +18,10 @@
 ;; }}
 
 ;; {{ org-noter
-(use-package org-noter)
-(setq org-noter-always-create-frame nil)
+(use-package org-noter
+  :config
+  (setq org-noter-always-create-frame nil))
 ;; }}
+
+(require 'init-org-latex)
 (provide 'init-org)

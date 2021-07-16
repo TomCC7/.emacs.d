@@ -1,5 +1,4 @@
 ;; start up time
-(add-hook 'prog-mode-hook #'linum-mode)
 (add-hook 'emacs-startup-hook
           (lambda ()
             (message "Emacs ready in %s with %d gcs"
@@ -7,8 +6,6 @@
                                                          after-init-time
                                                          before-init-time)))
                      gcs-done)))
-;; configs
-(setq my-http-proxy 'http://127.0.0.1:8889)
 ;; add load paths
 (defconst my-emacs-d (file-name-as-directory user-emacs-directory)
   "Directory of emacs.d")

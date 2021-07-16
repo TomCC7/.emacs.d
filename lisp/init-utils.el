@@ -12,4 +12,11 @@
 
 (use-package saveplace-pdf-view)
 ;; }}
+
+;; {{ wakatime
+(use-package wakatime-mode
+  :config
+  (global-wakatime-mode))
+;; }}
+
 (provide 'init-utils)
