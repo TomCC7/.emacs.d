@@ -6,8 +6,6 @@
 	    (turn-on-auto-fill)
 	    ;; image preview
 	    (setq org-image-actual-width (list 600))
-	    ;; latex syntax highlighting
-	    (setq org-highlight-latex-and-related '(native))
 ))
 ;; }}
 
