@@ -4,8 +4,9 @@
 (use-package doom-themes)
 (use-package arc-dark-theme)
 (use-package dracula-theme)
+(use-package color-theme-sanityinc-tomorrow)
 ;; select theme
-(load-theme 'dracula t nil)
+(load-theme 'sanityinc-tomorrow-night t nil)
 
 ;; guard
 (provide 'init-themes)

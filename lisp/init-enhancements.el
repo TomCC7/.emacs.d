@@ -27,5 +27,7 @@
   )
 ;; }}
 
+(require 'init-enhancements-whichkey)
+;; (require 'init-enhancements-tabs)
 ;; guard
 (provide 'init-enhancements)
