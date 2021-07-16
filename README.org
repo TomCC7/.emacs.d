@@ -1,10 +1,13 @@
 #+TITLE: .emacs.d
 
 * TODO todos
+** TODO Cutomization
+   - [ ] add function to add multiple hooks
 ** TODO PDF
-  - [ ] add pdf vim keybindings
+   - [X] add pdf vim keybindings
 ** TODO org-mode
-  - [ ] org-roam
+   - [ ] org-roam
 ** TODO programming
-  - [ ] lisp
+   - [ ] lisp
+
 

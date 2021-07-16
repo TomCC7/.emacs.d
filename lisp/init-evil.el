@@ -92,4 +92,7 @@
   (powerline-evil-vim-color-theme))
 ;; }}
 
+;; evil leader
+(require 'init-evil-leader)
+;; guard
 (provide 'init-evil)

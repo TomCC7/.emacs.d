@@ -1,9 +1,9 @@
 ;; {{ setq
 ;; Set citation path
 (setq my-citation-dir '("/home/cc/Documents/bib/citation.bib"))
+(setq my-http-proxy "http://127.0.0.1:8889")
 ;; }}
 ;; {{ proxy
-(setq my-http-proxy "http://127.0.0.1:8889")
 (setenv "http_proxy" my-http-proxy)
 (setenv "https_proxy" my-http-proxy)
 ;; }}

@@ -18,6 +18,8 @@
 (add-to-list 'load-path my-lisp-dir)
 
 (toggle-debug-on-error t)
+;; custom variables and functions
+(require 'init-customs)
 ;; env
 (require 'init-env)
 ;; packages
