@@ -15,7 +15,7 @@
   (global-set-key (kbd "C-h v") #'helpful-variable)
   (global-set-key (kbd "C-h k") #'helpful-key)
   ;; helpful at point
-  (global-set-key (kbd "C-c C-d") #'helpful-at-point)
+  (global-set-key (kbd "C-h C-d") #'helpful-at-point)
   (define-key evil-normal-state-map "K" #'helpful-at-point)
   )
 ;; }}
@@ -24,8 +24,11 @@
 (use-package ranger
   :config
   (ranger-override-dired-mode t)
+  (setq ranger-show-hidden t)
+  (setq ranger-modify-header t)
   )
 ;; }}
+
 
 (require 'init-enhancements-whichkey)
 (require 'init-enhancements-tabs)

@@ -2,11 +2,16 @@
 (setq make-backup-files nil)
 
 ;; fill-column
-(setq fill-column 65)
+(setq fill-column 80)
 
-;; line number relative
-(setq display-line-numbers-type 'relative)
-(add-hook 'prog-mode-hook (lambda () (display-line-numbers-mode 'relative)))
-(add-hook 'org-mode-hook (lambda () (display-line-numbers-mode 'relative)))
+;; tab-width
+(setq tab-width 4)
+
+;; {{ display line number
+(setq display-line-numbers-type 'relative) ;; relative
+(setq display-line-numbers-width 1)
+(add-hook 'prog-mode-hook #'display-line-numbers-mode)
+(add-hook 'org-mode-hook #'display-line-numbers-mode)
+;; }}
 
 (provide 'init-misc)

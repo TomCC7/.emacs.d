@@ -1,8 +1,13 @@
 straight/
 auto-save-list/
 elpy/
+eln-cache/
+eshell/
+ltximg/
 amx-items
 smex-items
 *~
 tramp
 recentf
+.org-id-locations
+org-roam.db

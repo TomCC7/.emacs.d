@@ -19,4 +19,9 @@
   (global-wakatime-mode))
 ;; }}
 
+;; {{ shell
+;; vterm
+(use-package vterm)
+;; }}
+
 (provide 'init-utils)

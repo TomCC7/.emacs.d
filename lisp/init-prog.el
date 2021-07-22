@@ -1,4 +1,6 @@
 (require 'init-packages)
 (require 'init-prog-verilog)
 (require 'init-prog-python)
+(require 'init-prog-clisp)
+(require 'init-prog-elisp)
 (provide 'init-prog)

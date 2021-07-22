@@ -2,12 +2,13 @@
 
 * TODO todos
 ** TODO Cutomization
-   - [ ] add function to add multiple hooks
+   + [-] add function to add multiple hooks
 ** TODO PDF
-   - [X] add pdf vim keybindings
-** TODO org-mode
-   - [ ] org-roam
+   + [X] add pdf vim keybindings
+** TODO org+mode
+   + [ ] org+roam
+   + [ ] diplay remote images
 ** TODO programming
-   - [ ] lisp
+   + [X] lisp
 
 

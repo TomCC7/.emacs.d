@@ -2,7 +2,7 @@
 (setq org-highlight-latex-and-related '(native latex script entities))
 ;; format latex options
 (setq org-format-latex-options
-      (plist-put org-format-latex-options :scale 1.8))
+      (plist-put org-format-latex-options :scale 0.8))
 ;; auctex
 (use-package auctex :defer t)
 
