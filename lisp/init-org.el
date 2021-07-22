@@ -25,7 +25,7 @@
 ;; use superstar instead
 (use-package org-superstar
   :init
-  (defun my-auto-lightweight-mode ()
+  (defun my/auto-lightweight-mode ()
     "Start Org Superstar differently depending on the number of lists items."
     (let ((list-items
 	   (count-matches "^[ \t]*?\\([+-]\\|[ \t]\\*\\)"
@@ -38,7 +38,7 @@
   :hook
   (org-mode . (lambda ()
 		(org-superstar-configure-like-org-bullets)
-		(my-auto-lightweight-mode))))
+		(my/auto-lightweight-mode))))
 ;; }}
 
 ;; {{ org-noter

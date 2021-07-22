@@ -6,8 +6,6 @@
   (evil-leader/set-key
     ;; switch group
     "g" 'counsel-git-grep
-    ;; config
-    "c" 'my-find-config
     ;; kill buffer
     "d" 'kill-this-buffer
     ;; list buffers
@@ -15,7 +13,7 @@
     ;; jump or set bookmark
     "RET" 'bookmark-jump
     ;; file jump
-    "<SPC>" 'my-counsel-file-jump
+    "<SPC>" 'my/counsel-file-jump
     ;; find file
     "e" 'counsel-find-file
     ;; ranger
@@ -24,6 +22,8 @@
     "s" 'swiper
     ;; Meta-x
     ":" 'amx
+    ;; files
+    "f c" 'my/find-config
     ;; bookmarks
     "m d" 'bookmark-delete
     "m j" 'bookmark-jump

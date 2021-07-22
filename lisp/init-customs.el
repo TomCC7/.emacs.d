@@ -1,12 +1,12 @@
 ;; @requires `counsel'
-(defun my-find-config ()
+(defun my/find-config ()
   "Find file in config directory"
   (interactive)
-  (cd my-emacs-d)
+  (cd my/emacs-d)
   (counsel-git))
 
 ;; @requires `counsel'
-(defun my-counsel-file-jump ()
+(defun my/counsel-file-jump ()
   "Use `counsel-file-jump' or `counsel-git'"
   (interactive)
   (if (counsel--git-root)

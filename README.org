@@ -1,14 +1,19 @@
 #+TITLE: .emacs.d
 
-* TODO todos
-** TODO Cutomization
+* TODOS
+** Cutomization [0/1]
    + [-] add function to add multiple hooks
-** TODO PDF
+** PDF [1/1]
    + [X] add pdf vim keybindings
-** TODO org+mode
+** org-mode
+*** functions [0/2]
    + [ ] org+roam
    + [ ] diplay remote images
-** TODO programming
+*** Inputs [0/2]
+   + [ ] bracket pair
+   + [ ] snippet
+** programming [1/2]
    + [X] lisp
-
-
+** Status Bar
+- [ ] logo?
+- [ ] hide minor mode

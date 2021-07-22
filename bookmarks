@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("config"
+(("Projects"
+ (filename . "/mnt/share/Programming/Projects/")
+ (front-context-string . ".backup/\n  drwxr")
+ (rear-context-string . " 4k 04-11 01:13 ")
+ (position . 81))
+("agv_ros"
+ (filename . "/mnt/share/Programming/Projects/ipp_agv/agv_ros/")
+ (front-context-string . "agv_env/\n  drwxr")
+ (rear-context-string . "  0 06-19 21:11 ")
+ (position . 81))
+("config"
  (filename . "~/.emacs.d/")
  (front-context-string . "auto-save-list/\n")
  (rear-context-string . " 4k 07-14 20:40 ")

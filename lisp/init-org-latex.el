@@ -16,10 +16,10 @@
 ;; {{ orgref
 (use-package org-ref
   :config
-  (setq reftex-default-bibliography my-citation-dir)
+  (setq reftex-default-bibliography my/citation-dir)
   (setq org-ref-bibliography-notes '("/home/my/Documents/bib/notes.org"))
-  (setq org-ref-default-bibliography my-citation-dir)
-  (setq bibtex-completion-bibliography my-citation-dir)
+  (setq org-ref-default-bibliography my/citation-dir)
+  (setq bibtex-completion-bibliography my/citation-dir)
 )
 ;; }}
 
