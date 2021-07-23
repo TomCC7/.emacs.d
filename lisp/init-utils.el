@@ -30,4 +30,8 @@
   (setq docker-container-shell-file-name '/usr/bin/zsh))
 ;; }}
 
+;; {{ restart-emacs
+(use-package restart-emacs)
+;; }}
+
 (provide 'init-utils)

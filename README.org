@@ -7,9 +7,12 @@
 ** PDF [1/1]
    + [X] add pdf vim keybindings
 ** org-mode
-*** functions [0/2]
-   + [ ] org+roam
+*** functions [0/5]
+   + [-] org+roam
    + [ ] diplay remote images
+   + [ ] [[https://github.com/astahlman/ob-async][ob-async]]
+   + [ ] [[https://github.com/snosov1/toc-org][toc-org]]
+   + [ ] [[https://github.com/abo-abo/org-download][org-download]]
 *** Inputs [0/2]
    + [ ] bracket pair
    + [ ] snippet
