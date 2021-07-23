@@ -117,4 +117,5 @@
 ;; }}
 
 (require 'init-org-latex)
+(require 'init-org-ref)
 (provide 'init-org)

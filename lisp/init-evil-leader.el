@@ -6,8 +6,6 @@
   (evil-leader/set-key
     ;; switch group
     "g" 'counsel-git-grep
-    ;; kill buffer
-    "d" 'kill-this-buffer
     ;; list buffers
     "b" 'ibuffer
     ;; jump or set bookmark
@@ -24,6 +22,8 @@
     ":" 'amx
     ;; files
     "f c" 'my/find-config
+    ;; utils
+    "u d" 'docker
     ;; bookmarks
     "m d" 'bookmark-delete
     "m j" 'bookmark-jump

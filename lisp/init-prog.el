@@ -3,4 +3,5 @@
 (require 'init-prog-python)
 (require 'init-prog-clisp)
 (require 'init-prog-elisp)
+(require 'init-prog-cc)
 (provide 'init-prog)

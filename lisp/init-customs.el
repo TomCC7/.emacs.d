@@ -179,5 +179,6 @@ If on a:
             (org-element-property :end context))))))))
 ;; }}
 
+(require 'init-customs-fix)
 ;; guard
 (provide 'init-customs)

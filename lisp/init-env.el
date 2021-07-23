@@ -1,6 +1,8 @@
 ;; {{ setq
-;; Set citation path
-(setq my/citation-dir '("/home/cc/Documents/bib/citation.bib"))
+;; citation path
+(setq my/org-citation-dir	'("~/Documents/emacs/citation.bib")
+      my/org-pdf-dir		'("~/Documents/emacs/papers")
+      my/org-notes-dir		'("~/Documents/emacs/notes.org"))
 (setq my/http-proxy "http://127.0.0.1:8889")
 ;; }}
 ;; {{ proxy

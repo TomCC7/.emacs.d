@@ -24,4 +24,10 @@
 (use-package vterm)
 ;; }}
 
+;; {{ docker
+(use-package docker
+  :config
+  (setq docker-container-shell-file-name '/usr/bin/zsh))
+;; }}
+
 (provide 'init-utils)

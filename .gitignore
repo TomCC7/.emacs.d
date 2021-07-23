@@ -4,6 +4,8 @@ elpy/
 eln-cache/
 eshell/
 ltximg/
+transient/
+url/
 amx-items
 smex-items
 *~
@@ -11,3 +13,5 @@ tramp
 recentf
 .org-id-locations
 org-roam.db
+.#*
+*#
