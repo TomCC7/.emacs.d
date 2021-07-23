@@ -18,10 +18,10 @@
  (rear-context-string . " 4k 04-30 13:01 ")
  (position . 83))
 ("org-capture-last-stored"
- (filename . "/mnt/share/JDsync/Documents/emacs/roam/20210723183451-emacs.org")
- (front-context-string . "\n* Org-mode\n** O")
- (rear-context-string . "\n#+title: emacs\n")
- (position . 83))
+ (filename . "/mnt/share/JDsync/Documents/emacs/roam/20210723225329-verilog.org")
+ (front-context-string . "\n* Operators\n:PR")
+ (rear-context-string . "+title: verilog\n")
+ (position . 85))
 ("Projects"
  (filename . "/mnt/share/Programming/Projects/")
  (front-context-string . ".backup/\n  drwxr")

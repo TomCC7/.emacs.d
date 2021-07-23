@@ -1,7 +1,7 @@
 #+TITLE: .emacs.d
 
 * TODOS
-** Cutomization [0/1]
+** Cutomization [0/2]
    + [-] add function to add multiple hooks
    + [ ] Speeeeed up startup time
 ** PDF [1/1]

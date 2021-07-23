@@ -22,7 +22,7 @@
     ":" 'amx
     ;; files
     "f c" 'my/find-config
-    "f k" 'kill-buffer
+    "f k" 'kill-this-buffer
     ;; utils
     "u d" 'docker
     ;; bookmarks
