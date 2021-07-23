@@ -24,11 +24,11 @@
 (require 'init-env)
 ;; packages
 (require 'init-packages) ;; straight
-(require 'init-misc)
-(require 'init-utils)
 (require 'init-evil)
 (require 'init-company)
 (require 'init-ivy)
+(require 'init-misc)
+(require 'init-utils)
 (require 'init-appearance) ;; appearance settings
 (require 'init-enhancements) ;; enhancements to default
 ;; languages

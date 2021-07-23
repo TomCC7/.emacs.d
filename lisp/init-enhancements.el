@@ -26,11 +26,16 @@
   (ranger-override-dired-mode t)
   (setq ranger-show-hidden t)
   (setq ranger-modify-header t)
-  )
+  ;; preview file by default
+  (setq ranger-preview-file t)
+  ;; show not only plain text 
+  (setq ranger-show-literal nil)
+  ;; exclude being previewed
+  (setq ranger-excluded-extensions '("mkv" "iso" "mp4" "exe" "bin" "msi")))
 ;; }}
 
 
 (require 'init-enhancements-whichkey)
-(require 'init-enhancements-tabs)
+;; (require 'init-enhancements-tabs) ;; tab enhancements, deprecated
 ;; guard
 (provide 'init-enhancements)

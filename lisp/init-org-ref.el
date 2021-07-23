@@ -8,7 +8,6 @@
 (use-package org-ref
   :init
   ;; citation path
-  (print my/org-pdf-dir)
   (setq my/org-citation-dirs	'("~/Documents/emacs/citation.bib")
 	my/org-pdf-dir		"~/Documents/emacs/papers"
 	my/org-notes-dir	"~/Documents/emacs/notes.org")
