@@ -34,6 +34,14 @@
   (setq ranger-excluded-extensions '("mkv" "iso" "mp4" "exe" "bin" "msi")))
 ;; }}
 
+;; {{ smartparens
+(use-package smartparens
+  :config
+  (require 'smartparens-config)
+  :hook
+  ((prog-mode org-mode) . smartparens-mode)
+  )
+;; }}
 
 (require 'init-enhancements-whichkey)
 ;; (require 'init-enhancements-tabs) ;; tab enhancements, deprecated
