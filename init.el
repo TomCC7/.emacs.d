@@ -31,6 +31,7 @@
 (require 'init-utils)
 (require 'init-appearance) ;; appearance settings
 (require 'init-enhancements) ;; enhancements to default
+(require 'init-managements)
 ;; languages
 (require 'init-prog) ;; programming
 (require 'init-org)
