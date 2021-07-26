@@ -20,6 +20,8 @@
     "s" 'swiper
     ;; Meta-x
     ":" 'amx
+    ;; neotree
+    "t" 'neotree-toggle
     ;; files
     "f c" 'my/find-config
     "f k" 'kill-this-buffer

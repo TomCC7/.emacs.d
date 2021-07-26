@@ -43,6 +43,12 @@
   )
 ;; }}
 
+;; {{ neotree
+(use-package neotree
+  :config
+  (setq neo-theme (if (display-graphic-p) 'icons 'arrow)))
+;; }}
+
 (require 'init-enhancements-whichkey)
 ;; (require 'init-enhancements-tabs) ;; tab enhancements, deprecated
 ;; guard

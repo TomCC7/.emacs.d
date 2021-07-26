@@ -11,7 +11,7 @@
  (filename . "~/Downloads/")
  (front-context-string . "BaiduNetDisk/\n  ")
  (rear-context-string . " 4k 05-13 17:38 ")
- (position . 84))
+ (position . 83))
 ("Papers"
  (filename . "~/Documents/emacs/papers/")
  (front-context-string . "japan/\n  drwxrwx")
@@ -63,7 +63,7 @@
  (rear-context-string)
  (position . 1))
 ("Citation.bib"
- (filename . "/mnt/share/JDsync/Documents/bib/citation.bib")
+ (filename . "~/Documents/emacs/citation.bib")
  (front-context-string . "\n@article{10.230")
  (rear-context-string)
  (position . 1))
