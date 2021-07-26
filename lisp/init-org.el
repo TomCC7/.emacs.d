@@ -12,7 +12,16 @@
 	     ;; remote inline image
 	     org-display-remote-inline-images 'download)
 	    ;; keymaps
-	    (define-key org-mode-map (kbd "C-<return>") #'org-meta-return)))
+	    (define-key org-mode-map (kbd "C-<return>") #'org-meta-return)
+	    ;; display a line to indicate fill column
+	    (display-fill-column-indicator-mode 1)
+	    ;; line number
+	    (display-line-numbers-mode 1)))
+;; }}
+
+;; {{ evil-leader
+(evil-leader/set-key-for-mode 'org-mode
+  "c e" #'org-export-dispatch)
 ;; }}
 
 ;; {{ remote inline image

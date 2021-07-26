@@ -39,7 +39,7 @@
   :config
   (require 'smartparens-config)
   :hook
-  ((prog-mode org-mode) . smartparens-mode)
+  ((prog-mode) . smartparens-mode)
   )
 ;; }}
 

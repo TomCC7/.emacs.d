@@ -23,6 +23,7 @@
     ;; files
     "f c" 'my/find-config
     "f k" 'kill-this-buffer
+    "f r" 'counsel-recentf
     ;; utils
     "u d" 'docker
     ;; bookmarks

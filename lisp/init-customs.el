@@ -2,8 +2,7 @@
 (defun my/find-config ()
   "Find file in config directory"
   (interactive)
-  (cd my/emacs-d)
-  (counsel-git))
+  (counsel-find-file nil my/emacs-d))
 
 ;; @requires `counsel'
 (defun my/counsel-file-jump ()

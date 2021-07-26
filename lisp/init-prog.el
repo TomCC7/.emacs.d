@@ -1,4 +1,11 @@
 (require 'init-packages)
+;; {{ hook
+(add-hook 'prog-mode-hook
+	  (lambda ()
+	    ;; display a line to indicate fill column
+	    (display-fill-column-indicator-mode 1)
+	    (display-line-numbers-mode 1)))
+;; }}
 ;; {{ yasnippet
 (use-package yasnippet
   :config

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: image
+# --
+#+caption: $1
+#+label: $2
+[[$0]]

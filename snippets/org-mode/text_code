@@ -2,4 +2,4 @@
 # name: text_code
 # key: cd
 # --
-~$1~ $0
+~$0~

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: citation_block
+# name: quote_block
 # key: <q
 # --
 #+begin_quote

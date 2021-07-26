@@ -2,4 +2,4 @@
 # name: text_it
 # key: it
 # --
-/$1/ $0
+/$0/
