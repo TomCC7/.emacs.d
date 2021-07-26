@@ -1,10 +1,10 @@
 (require 'init-packages)
 ;; themes
-(use-package monokai-theme)
-(use-package arc-dark-theme)
 (use-package dracula-theme)
-(use-package doom-themes)
 (use-package color-theme-sanityinc-tomorrow)
+(use-package color-theme-sanityinc-solarized)
+(use-package zenburn-theme)
+(use-package atom-one-dark-theme)
 ;; select theme
 (load-theme 'dracula t nil)
 
