@@ -5,6 +5,8 @@
 (use-package color-theme-sanityinc-solarized)
 (use-package zenburn-theme)
 (use-package atom-one-dark-theme)
+(use-package doom-themes)
+(use-package spacemacs-theme)
 ;; select theme
 (load-theme 'dracula t nil)
 

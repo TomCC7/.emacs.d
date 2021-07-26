@@ -95,6 +95,13 @@
   (powerline-evil-vim-color-theme))
 ;; }}
 
+;; {{ evil-snipe
+(use-package evil-snipe
+  :config
+  (evil-snipe-mode)
+  (evil-snipe-override-mode))
+;;}}
+
 ;; evil leader
 (require 'init-evil-leader)
 (require 'init-evil-keybindings)

@@ -30,6 +30,7 @@
     ;; bookmarks
     "m d" 'bookmark-delete
     "m j" 'bookmark-jump
+    "m c" 'bookmark-set
     ;; help
     "h k" 'helpful-key
     "h v" 'helpful-variable

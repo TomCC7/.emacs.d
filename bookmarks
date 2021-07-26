@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("citation"
+(("ORB_SLAM3"
+ (filename . "/mnt/share/Programming/Projects/slam/refs/ORB_SLAM3/")
+ (front-context-string . "build/\n  drwxrwx")
+ (rear-context-string . " 4k 07-26 19:32 ")
+ (position . 82))
+("citation"
  (filename . "~/Documents/emacs/citation.bib")
  (front-context-string . "\n@article{10.230")
  (rear-context-string)
