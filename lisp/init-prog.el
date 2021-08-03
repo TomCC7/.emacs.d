@@ -5,6 +5,8 @@
 	    ;; display a line to indicate fill column
 	    (display-fill-column-indicator-mode 1)
 	    (display-line-numbers-mode 1)))
+;; auto mode
+(add-to-list 'auto-mode-alist '("\\.launch\\'" . xml-mode))
 ;; }}
 ;; {{ yasnippet
 (use-package yasnippet
@@ -45,6 +47,15 @@
 ;; optionally if you want to use debugger
 ;; (use-package dap-mode)
 ;; (use-package dap-LANGUAGE) to load the dap adapter for your language
+;; }}
+
+;; {{
+(use-package yaml-mode
+  :config
+  (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+  (add-hook 'yaml-mode-hook
+	    '(lambda ()
+	       (define-key yaml-mode-map "\C-m" 'newline-and-indent))))
 ;; }}
 
 (require 'init-prog-verilog)

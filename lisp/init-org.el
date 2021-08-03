@@ -1,30 +1,39 @@
 (require 'init-packages)
 ;; {{ misc
 (add-hook 'org-mode-hook
-	 (lambda ()
+	  (lambda ()
 	    ;; auto fill mode
 	    (turn-on-auto-fill)
-	    (setq
-	     ;; image preview
-	     org-image-actual-width (list 600)
-	     ;; startup with images
-	     org-startup-with-inline-images t
-	     ;; remote inline image
-	     org-display-remote-inline-images 'download)
 	    ;; keymaps
 	    (define-key org-mode-map (kbd "C-<return>") #'org-meta-return)
 	    ;; display a line to indicate fill column
 	    (display-fill-column-indicator-mode 1)
 	    ;; line number
-	    (display-line-numbers-mode 1)))
+	    (display-line-numbers-mode -1)
+	    ;; level font size
+	    (custom-set-faces
+	     '(org-level-1 ((t (:inherit outline-1 :height 1.5))))
+	     '(org-level-2 ((t (:inherit outline-2 :height 1.3))))
+	     '(org-level-3 ((t (:inherit outline-3 :height 1.2))))
+	     '(org-level-4 ((t (:inherit outline-4 :height 1.0))))
+	     '(org-level-5 ((t (:inherit outline-5 :height 1.0)))))))
 ;; }}
+
+(setq
+ ;; image preview
+ org-image-actual-width (list 600)
+ ;; startup with images
+ org-startup-with-inline-images t
+ ;; remote inline image
+ org-display-remote-inline-images 'download
+ ;; ellipsis settings
+ org-ellipsis " ▾"
+ org-hide-emphasis-markers t)
+ 
 
 ;; {{ evil-leader
 (evil-leader/set-key-for-mode 'org-mode
   "c e" #'org-export-dispatch)
-;; }}
-
-;; {{ remote inline image
 ;; }}
 
 ;; {{ org-bullets
@@ -127,4 +136,5 @@
 
 (require 'init-org-latex)
 (require 'init-org-ref)
+(require 'init-org-babel)
 (provide 'init-org)

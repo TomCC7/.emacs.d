@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: image
+# name: img
 # --
 #+caption: $1
-#+label: $2
+#+name: fig:$2
 [[$0]]

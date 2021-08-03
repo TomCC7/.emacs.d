@@ -19,11 +19,7 @@
 	bibtex-completion-bibliography	my/org-citation-dirs
 	)
   ;; use ivy for completion
-  (org-ref-ivy-cite-completion)
-  ;; open pdf with system pdf viewer (works on mac)
-  (setq bibtex-completion-pdf-open-function
-	(lambda (fpath)
-	  (start-process "open" "*open*" "open" fpath))))
+  (org-ref-ivy-cite-completion))
 ;; }}
 
 ;; guard

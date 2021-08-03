@@ -6,9 +6,8 @@
 (use-package zenburn-theme)
 (use-package atom-one-dark-theme)
 (use-package doom-themes)
-(use-package spacemacs-theme)
 ;; select theme
-(load-theme 'dracula t nil)
+(load-theme 'doom-tomorrow-day t nil)
 
 ;; guard
 (provide 'init-themes)
