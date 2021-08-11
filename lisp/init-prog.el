@@ -63,4 +63,5 @@
 (require 'init-prog-clisp)
 (require 'init-prog-elisp)
 (require 'init-prog-cc)
+(require 'init-prog-haskell)
 (provide 'init-prog)

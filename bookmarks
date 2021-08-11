@@ -2,7 +2,37 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("srtdoc"
+(("um_misc"
+ (filename . "/mnt/share/JDsync/um_misc/")
+ (front-context-string . "documents/\n  drw")
+ (rear-context-string . " 4k 07-15 22:51 ")
+ (position . 81))
+("JDsync"
+ (filename . "/mnt/share/JDsync/")
+ (front-context-string . "2019FA/\n  drwxrw")
+ (rear-context-string . " 4k 07-09 23:35 ")
+ (position . 85))
+("books"
+ (filename . "/mnt/share/JDsync/books/")
+ (front-context-string . "algorithm/\n  drw")
+ (rear-context-string . "  0 2021-01-13  ")
+ (position . 83))
+("haskell-cis194"
+ (filename . "/mnt/share/Programming/learning/haskell/cis194/")
+ (front-context-string)
+ (rear-context-string . "159 07-09 09:57 ")
+ (position . 78))
+("telegram"
+ (filename . "~/Downloads/Telegram Desktop/")
+ (front-context-string . "044002000311-368")
+ (rear-context-string . ".1k 06-06 17:49 ")
+ (position . 140))
+("ranger- "
+ (filename . "/mnt/share/JDsync/2021SU/VE203/hw_self/hw11/")
+ (front-context-string . "hw11.org*\n  -rwx")
+ (rear-context-string . ".8k 08-03 20:39 ")
+ (position . 162))
+("srtdoc"
  (filename . "/mnt/share/Programming/Projects/slam/srtdoc/")
  (front-context-string . "dataset/\n  drwxr")
  (rear-context-string . "  0 07-31 21:50 ")
@@ -38,10 +68,10 @@
  (rear-context-string . " 4k 04-30 13:01 ")
  (position . 83))
 ("org-capture-last-stored"
- (filename . "/mnt/share/JDsync/Documents/emacs/roam/20210731231705-srt_notes.org")
- (front-context-string . "\n* temp\n** camin")
- (rear-context-string . "itle: srt_notes\n")
- (position . 87))
+ (filename . "/mnt/share/JDsync/Documents/emacs/roam/20210812003240-ledger.org")
+ (front-context-string)
+ (rear-context-string . "#+title: ledger\n")
+ (position . 84))
 ("Projects"
  (filename . "/mnt/share/Programming/Projects/")
  (front-context-string . ".backup/\n  drwxr")
@@ -60,8 +90,8 @@
 ("learning"
  (filename . "/mnt/share/Programming/learning/")
  (front-context-string . "ComputerNetworki")
- (rear-context-string . " 4k 02-03 14:42 ")
- (position . 81))
+ (rear-context-string . " 4k 2021-02-03  ")
+ (position . 79))
 ("baidusb"
  (filename . "/mnt/share/JDsync/2021SU/baidusb/")
  (front-context-string . "  /mnt/share/JDs")

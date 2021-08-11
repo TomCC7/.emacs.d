@@ -5,11 +5,11 @@
 	    ;; auto fill mode
 	    (turn-on-auto-fill)
 	    ;; keymaps
-	    (define-key org-mode-map (kbd "C-<return>") #'org-meta-return)
+	    (define-key org-mode-map (kbd "C-<return>") #'+org/insert-item-below)
 	    ;; display a line to indicate fill column
 	    (display-fill-column-indicator-mode 1)
 	    ;; line number
-	    (display-line-numbers-mode -1)
+	    (display-line-numbers-mode 1)
 	    ;; level font size
 	    (custom-set-faces
 	     '(org-level-1 ((t (:inherit outline-1 :height 1.5))))

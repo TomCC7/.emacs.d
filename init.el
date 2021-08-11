@@ -25,6 +25,7 @@
 (require 'init-env)
 ;; packages
 (require 'init-packages) ;; straight
+(require 'init-chinese)
 (require 'init-evil)
 (require 'init-company)
 (require 'init-ivy)

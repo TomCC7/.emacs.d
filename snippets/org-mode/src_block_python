@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: src_block_python
+# key: <spy
+# --
+#+begin_src python :results output
+$0
+#+end_src

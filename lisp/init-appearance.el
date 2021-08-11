@@ -57,8 +57,19 @@
               (push '(">=" . ?≥) prettify-symbols-alist)))
 ;; }}
 
-;; {{ packages
+;; {{ all-the-icons
 (use-package all-the-icons)
+;; }}
+
+;; {{ doom-modeline
+(use-package doom-modeline
+  :ensure t
+  :hook (after-init . doom-modeline-mode))
+;; }}
+
+;; {{ emojify
+(use-package emojify
+  :hook (after-init . global-emojify-mode))
 ;; }}
 
 ;; guard

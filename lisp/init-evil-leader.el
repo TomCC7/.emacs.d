@@ -24,7 +24,7 @@
     "f c" 'my/find-config
     "f k" 'kill-this-buffer
     "f r" 'counsel-recentf
-    "f l" 'neotree-toggle
+    "f l" 'treemacs
     ;; utils
     "u d" 'docker
     ;; bookmarks
@@ -35,6 +35,7 @@
     "h k" 'helpful-key
     "h v" 'helpful-variable
     "h f" 'helpful-function
+    "h R" 'restart-emacs
     ;; w
     "w s" 'evil-window-split
     "w v" 'evil-window-vsplit

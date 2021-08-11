@@ -89,12 +89,6 @@
   )
 ;; }}
 
-;; {{ powerline-evil
-(use-package powerline-evil
-  :config
-  (powerline-evil-vim-color-theme))
-;; }}
-
 ;; {{ evil-snipe
 (use-package evil-snipe
   :config

@@ -34,4 +34,12 @@
 (use-package restart-emacs)
 ;; }}
 
+;; {{ ledger
+(use-package ledger-mode)
+;; }}
+
+;; {{ unicad: Universal Charset Auto Detector
+(use-package unicad)
+;; }}
+
 (provide 'init-utils)

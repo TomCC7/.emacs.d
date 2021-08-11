@@ -6,6 +6,9 @@ eshell/
 ltximg/
 transient/
 url/
+.cache/
+emojis/
+pyim/
 amx-items
 smex-items
 *~
