@@ -25,15 +25,15 @@
 ;; {{ export org-mode in Chinese into PDF
 ;; @see http://freizl.github.io/posts/tech/2012-04-06-export-orgmode-file-in-Chinese.html
 (setq org-latex-pdf-process
-      '("pdflatex -interaction nonstopmode -output-directory %o %f"
-        ;; "biber %b"
-        "pdflatex -interaction nonstopmode -output-directory %o %f"
-        "pdflatex -interaction nonstopmode -output-directory %o %f"))
+      ;; '("pdflatex -interaction nonstopmode -output-directory %o %f"
+      ;;   ;; "biber %b"
+      ;;   "pdflatex -interaction nonstopmode -output-directory %o %f"
+      ;;   "pdflatex -interaction nonstopmode -output-directory %o %f"))
 
-      ;; '("xelatex -interaction nonstopmode -output-directory %o %f"
-      ;; 	"bibtex %b"
-      ;;   "xelatex -interaction nonstopmode -output-directory %o %f"
-      ;;   "xelatex -interaction nonstopmode -output-directory %o %f")) ;; org v8
+      '("xelatex -interaction nonstopmode -output-directory %o %f"
+	"bibtex %b"
+        "xelatex -interaction nonstopmode -output-directory %o %f"
+        "xelatex -interaction nonstopmode -output-directory %o %f")) ;; org v8
 
 ;; (setq org-latex-pdf-process (list "latexmk -shell-escape -bibtex -f -pdf %f"))
 ;; }}

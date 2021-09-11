@@ -19,6 +19,7 @@
 (add-to-list 'load-path my/lisp-dir)
 
 ;; (toggle-debug-on-error t)
+
 ;; custom variables and functions
 (require 'init-customs)
 ;; env
@@ -31,11 +32,11 @@
 (require 'init-ivy)
 (require 'init-misc)
 (require 'init-utils)
-(require 'init-appearance) ;; appearance settings
 (require 'init-enhancements) ;; enhancements to default
 (require 'init-managements)
 ;; languages
 (require 'init-prog) ;; programming
 (require 'init-org)
 (require 'init-markdown)
+(require 'init-appearance) ;; appearance settings
 (require 'init-themes) ;; themes

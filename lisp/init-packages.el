@@ -17,4 +17,8 @@
 ;; each use-package form also invoke straight.el to install the package
 (setq straight-use-package-by-default t)
 
+;; quelpa
+;; (use-package quelpa)
+;; (use-package quelpa-use-package)
+
 (provide 'init-packages)

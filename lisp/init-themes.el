@@ -6,6 +6,7 @@
 (use-package zenburn-theme)
 (use-package atom-one-dark-theme)
 (use-package doom-themes)
+(use-package poet-theme)
 ;; select theme
 (load-theme 'doom-tomorrow-day t nil)
 

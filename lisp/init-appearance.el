@@ -10,8 +10,16 @@
 ;; close help
 (setq inhibit-splash-screen 1)
 
-;; font size and type
-(set-frame-font  "MesloLGS Nerd Font 12" t t)
+;; {{ font size and type
+(set-face-attribute 'default nil :family "MesloLGS Nerd Font" :height 120)
+
+;; (use-package mixed-pitch
+;;   :hook
+;;   ;; If you want it in all text modes:
+;;   (text-mode . mixed-pitch-mode))
+;; }}
+
+
 (defun my/zoom-in ()
   "Increase font size by 10 points"
   (interactive)
@@ -33,7 +41,7 @@
 (global-set-key (kbd "C--") 'my/zoom-out)
 
 ;; highlight current line
-(global-hl-line-mode 1)
+;; (global-hl-line-mode 1)
 
 ;; {{ prettify-symbols-mode
 (defconst lisp--prettify-symbols-alist

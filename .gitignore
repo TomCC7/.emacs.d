@@ -9,8 +9,13 @@ url/
 .cache/
 emojis/
 pyim/
+elpa/
+quelpa/
+semanticdb/
 amx-items
 smex-items
+srecode-map.el
+.dap-breakpoints
 *~
 tramp
 recentf

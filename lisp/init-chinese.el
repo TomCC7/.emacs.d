@@ -68,5 +68,6 @@
   ;; 半角标点
   (setq pyim-punctuation-translate-p '(no yes auto)))
 ;; }}
+
 ;; guard
 (provide 'init-chinese)
