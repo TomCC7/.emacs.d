@@ -8,7 +8,7 @@
 (use-package doom-themes)
 (use-package poet-theme)
 ;; select theme
-(load-theme 'doom-tomorrow-day t nil)
+(load-theme 'sanityinc-tomorrow-day t nil)
 
 ;; guard
 (provide 'init-themes)

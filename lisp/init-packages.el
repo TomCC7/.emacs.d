@@ -14,6 +14,7 @@
 
 ;; use package
 (straight-use-package 'use-package)
+
 ;; each use-package form also invoke straight.el to install the package
 (setq straight-use-package-by-default t)
 

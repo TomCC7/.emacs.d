@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: src_block_ipython
+# key: <sp
+# --
+#+begin_src ein-python :session localhost
+$0
+#+end_src

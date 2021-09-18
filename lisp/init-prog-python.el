@@ -25,5 +25,10 @@
   ;; (python-mode . elpy-evil-map)
 )
 
+(use-package ein
+  :config
+  (add-to-list 'org-babel-load-languages '(ein . t)))
+
+
 ;; guard
 (provide 'init-prog-python)

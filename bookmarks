@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("EECS200"
+(("EECS498-001"
+ (filename . "/mnt/share/JDsync/2021FA/EECS 498 001 FA 2021/")
+ (front-context-string . "course_image/\n  ")
+ (rear-context-string . "  0 09-06 20:59 ")
+ (position . 80))
+("EECS200"
  (filename . "/mnt/share/JDsync/2021FA/EECS 200 001 FA 2021/")
  (front-context-string . "labs/\n  drwxrwxr")
  (rear-context-string . "  0 09-06 20:59 ")
@@ -93,10 +98,10 @@
  (rear-context-string . " 4k 04-30 13:01 ")
  (position . 83))
 ("org-capture-last-stored"
- (filename . "/mnt/share/JDsync/Documents/emacs/roam/20210906212034-eecs200.org")
+ (filename . "/mnt/share/JDsync/Documents/emacs/roam/20210916182835-convex_optimization.org")
  (front-context-string)
- (rear-context-string . "+title: EECS200\n")
- (position . 85))
+ (rear-context-string . "ex-optimization\n")
+ (position . 97))
 ("Projects"
  (filename . "/mnt/share/Programming/Projects/")
  (front-context-string . ".backup/\n  drwxr")

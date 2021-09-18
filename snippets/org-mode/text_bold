@@ -2,4 +2,4 @@
 # name: text_bold
 # key: bf
 # --
-*$1*$0
+*$0*

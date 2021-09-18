@@ -12,6 +12,7 @@ pyim/
 elpa/
 quelpa/
 semanticdb/
+request/
 amx-items
 smex-items
 srecode-map.el
