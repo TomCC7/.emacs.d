@@ -34,10 +34,10 @@
 (require 'init-utils)
 (require 'init-enhancements) ;; enhancements to default
 (require 'init-managements)
-;; languages
+;; ;; languages
 (require 'init-prog) ;; programming
 (require 'init-org)
-(require 'init-markdown)
+;; (require 'init-markdown)
 (require 'init-appearance) ;; appearance settings
 (require 'init-themes) ;; themes
 (custom-set-variables
@@ -47,7 +47,8 @@
  ;; If there is more than one, they won't work right.
  '(helm-minibuffer-history-key "M-p")
  '(org-agenda-files
-   '("/mnt/share/JDsync/2021FA/EECS 498 001 FA 2021/hw/hw1/hw1.org" "/mnt/share/JDsync/Documents/emacs/roam/20210916182835-convex_optimization.org" "/mnt/share/JDsync/2021FA/MATH 217 All Sections FA 2021/Homework Sets/hw2/hw2_partb.org" "/mnt/share/JDsync/2021FA/MATH 217 All Sections FA 2021/Homework Sets/hw2/hw2_parta.org")))
+   '("/mnt/share/JDsync/2021FA/MATH 217 All Sections FA 2021/Homework Sets/hw10/hw10_partb.org" "/mnt/share/JDsync/2021FA/EECS 498 001 FA 2021/hw/hw5/hw5.org" "/mnt/share/JDsync/2021FA/MATH 217 All Sections FA 2021/Homework Sets/hw8/hw8_partb.org" "/mnt/share/JDsync/2021FA/MATH 217 All Sections FA 2021/Homework Sets/hw6/parta.org" "/mnt/share/JDsync/2021FA/MATH 217 All Sections FA 2021/Homework Sets/hw5/partb.org"))
+ '(warning-suppress-log-types '((comp) (:warning))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

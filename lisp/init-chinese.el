@@ -1,19 +1,27 @@
 (require 'init-packages)
 ;; cite: https://github.com/hick/emacs-chinese
+;; {{ format
+(setq-default indent-tabs-mode nil)
+;; }}
 ;; {{ encoding
-;; (set-language-environment "UTF-8")
-;; (set-default-coding-systems 'utf-8)
-;; (set-buffer-file-coding-system 'utf-8-unix)
-;; (set-clipboard-coding-system 'utf-8-unix)
-;; (set-file-name-coding-system 'utf-8-unix)
-;; (set-keyboard-coding-system 'utf-8-unix)
-;; (set-next-selection-coding-system 'utf-8-unix)
-;; (set-selection-coding-system 'utf-8-unix)
-;; (set-terminal-coding-system 'utf-8-unix)
-;; (prefer-coding-system 'utf-8)
-;; (setq-default locale-coding-system 'utf-8
-;; 	      coding-system-for-read 'utf-8-unix
-;; 	      coding-system-for-write 'utf-8-unix)
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8)
+(set-buffer-file-coding-system 'utf-8-unix)
+(set-clipboard-coding-system 'utf-8-unix)
+(set-file-name-coding-system 'utf-8-unix)
+(set-keyboard-coding-system 'utf-8-unix)
+(set-next-selection-coding-system 'utf-8-unix)
+(set-selection-coding-system 'utf-8-unix)
+(set-terminal-coding-system 'utf-8-unix)
+(prefer-coding-system 'utf-8)
+(setq-default locale-coding-system 'utf-8
+	      coding-system-for-read 'utf-8-unix
+	      coding-system-for-write 'utf-8-unix)
+(defun no-junk-please-were-unixish ()
+  (let ((coding-str (symbol-name buffer-file-coding-system)))
+    (when (string-match "-\\(?:dos\\|mac\\)$" coding-str)
+      (set-buffer-file-coding-system 'unix))))
+(add-hook 'find-file-hooks 'no-junk-please-were-unixish)
 ;; }}
 
 ;; {{ 解决中文断行问题

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: comment_block
-# key: <c
+# key: <cm
 # --
 #+begin_comment
 $0

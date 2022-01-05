@@ -13,8 +13,8 @@
   :config
   (setq yas-snippet-dirs
 	(list (concat user-emacs-directory "snippets/")))
-  :hook
-  ((prog-mode org-mode) . yas-minor-mode))
+  (yas-global-mode 1))
+(use-package yasnippet-snippets)
 ;; }}
 
 ;; {{ smart-hungry-delete
@@ -35,6 +35,7 @@
   :hook
   ((c-mode . lsp)
    (c++-mode . lsp)
+   (python-mode . lsp)
    (lsp-mode . lsp-enable-which-key-integration))
   :commands lsp)
 

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: img
+# name: imag
+# key: <img
 # --
 #+caption: $1
 #+name: fig:$2

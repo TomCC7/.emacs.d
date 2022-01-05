@@ -3,12 +3,14 @@
 ;; pdf-tools
 (use-package pdf-tools
   :config
-  (pdf-tools-install-noverify)
+  ;; (pdf-tools-install-noverify)
+  (pdf-loader-install)
 
   (setq-default pdf-view-display-size 'fit-page)
   ;; Enable hiDPI support, but at the cost of memory! See politza/pdf-tools#51
-  (setq pdf-view-use-scaling t
-        pdf-view-use-imagemagick nil))
+  ;; (setq pdf-view-use-scaling t
+  ;;       pdf-view-use-imagemagick nil)
+  )
 
 (use-package saveplace-pdf-view)
 ;; }}
@@ -21,17 +23,7 @@
 
 ;; {{ shell
 ;; vterm
-(use-package vterm)
-;; }}
-
-;; {{ docker
-(use-package docker
-  :config
-  (setq docker-container-shell-file-name '/usr/bin/zsh))
-;; }}
-
-;; {{ restart-emacs
-(use-package restart-emacs)
+;; (use-package vterm)
 ;; }}
 
 ;; {{ ledger

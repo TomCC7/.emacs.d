@@ -12,7 +12,7 @@
  '((latex . t)
    (shell . t)
    (python . t)
-   (ein . t)
+   (jupyter . t)
    (haskell . t)
    (ledger . t)
    (lisp . t)))

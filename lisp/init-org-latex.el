@@ -30,13 +30,15 @@
       ;;   "pdflatex -interaction nonstopmode -output-directory %o %f"
       ;;   "pdflatex -interaction nonstopmode -output-directory %o %f"))
 
-      '("xelatex -interaction nonstopmode -output-directory %o %f"
+      '("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
 	"bibtex %b"
-        "xelatex -interaction nonstopmode -output-directory %o %f"
-        "xelatex -interaction nonstopmode -output-directory %o %f")) ;; org v8
+        "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+        "xelatex -shell-escape -interaction nonstopmode -output-directory %o %f")) ;; org v8
 
 ;; (setq org-latex-pdf-process (list "latexmk -shell-escape -bibtex -f -pdf %f"))
 ;; }}
 
+;; export with minted
+(setq org-latex-listings 'minted)
 ;; guard
 (provide 'init-org-latex)

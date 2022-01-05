@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: latex_bmatrix
-# key: <bm
+# key: ,bm
 # --
 \begin{bmatrix}
 $0
